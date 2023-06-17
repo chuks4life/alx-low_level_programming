@@ -6,7 +6,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  *print a random number and state if is zero, positive or negative
 * Return: Always 0
 */
