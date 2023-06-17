@@ -1,11 +1,13 @@
+/*0-positive_or_negative.c  written by chuks
+ */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*  this program is used to check if a number is zero, positive or negative
- *
+
+/*program is used to print a random number and state if is zero, positive or negative
  */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
