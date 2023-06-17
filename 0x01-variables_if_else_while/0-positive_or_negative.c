@@ -1,12 +1,15 @@
-/*0-positive_or_negative.c  written by chuks
+/*
+ * 0-positive_or_negative.c  written by chuks
  */
 
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
-/*program is used to print a random number and state if is zero, positive or negative
- */
+/*
+ *print a random number and state if is zero, positive or negative
+* Return: Always 0
+*/
 
 int main(void)
 {
