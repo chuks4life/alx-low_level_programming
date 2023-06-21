@@ -1,0 +1,11 @@
+#include "main.h"
+/**
+ * _abs - calculate the absolute value of the number from zero.
+ * Return: int i
+ */
+int _abs(int i)
+{
+	if (i < 0)
+		i = i * -1;
+	return (i);
+}
