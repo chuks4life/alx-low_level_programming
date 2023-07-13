@@ -5,7 +5,7 @@
  * memset - fills memory with a constant byte
  * Return: pointer to the memory area s
  */
-char memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
@@ -21,7 +21,7 @@ char memset(char *s, char b, unsigned int n)
  * calloc - allocates memory for an array
  * Return: pointer to allocated memory
  */
-void calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *point;
 
